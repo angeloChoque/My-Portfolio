@@ -1,14 +1,19 @@
-import { AppBar, Box, Stack, Toolbar, Typography } from "@mui/material";
-import { ITEM } from "../data/item";
+import {
+  AppBar,
+  Box,
+  Stack,
+  Toolbar,
+  Tooltip,
+  Typography,
+} from "@mui/material";
+import { ITEM } from "../data/commons";
 import MenuHeader from "./MenuHeader";
 import { Link } from "react-router-dom";
 import { COLOR } from "../assets/color";
 
 const Header = () => {
   return (
-    <AppBar
-      position={"sticky"}
-    >
+    <AppBar position={"sticky"}>
       <Toolbar>
         <Box flexGrow={1}>
           {/* <Typography 
@@ -25,22 +30,25 @@ const Header = () => {
         >
           {ITEM.map((item) => {
             return (
-              <Typography
-                key={item.title}
-                component={Link}
-                to={item.path}
-                fontSize={20}
-                display={"inline-flex"}
-                alignItems={"center"}
-                color={COLOR}
-                sx={{
-                  textShadow: "2px 2px 4px rgba(1,1,10,0.10)",
-                  textDecoration: "none",
-                }}
+              <Tooltip
+              key={item.title}
               >
-                {item.icon}
-                {item.title}
-              </Typography>
+                <Typography
+                  component={Link}
+                  to={item.path}
+                  fontSize={20}
+                  display={"inline-flex"}
+                  alignItems={"center"}
+                  color={COLOR}
+                  sx={{
+                    textShadow: "2px 2px 4px rgba(1,1,10,0.10)",
+                    textDecoration: "none",
+                  }}
+                >
+                  {item.icon}
+                  {item.title}
+                </Typography>
+              </Tooltip>
             );
           })}
         </Stack>
