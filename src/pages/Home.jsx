@@ -5,7 +5,7 @@ import { COLOR_2 } from "../assets/color";
 const Home = () => {
   return (
     <Container>
-      <Grid  container spacing={10}>
+      <Grid  container spacing={15}>
         <Grid item xs={12} md={6}>
         <motion.h1
             transition={{ duration: 0.6 }}
