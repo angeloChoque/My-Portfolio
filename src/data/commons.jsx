@@ -5,41 +5,65 @@ import AirplayIcon from "@mui/icons-material/Airplay";
 export const ITEM = [
   {
     title: "Home",
-    icon: <HomeIcon sx={{mr:1}} />,
+    icon: <HomeIcon sx={{ mr: 1 }} />,
     path: "/",
   },
   {
     title: "About",
-    icon: <PersonIcon sx={{mr:1}} />,
+    icon: <PersonIcon sx={{ mr: 1 }} />,
     path: "/about",
   },
   {
     title: "Projects",
-    icon: <AirplayIcon sx={{mr:1}} />,
+    icon: <AirplayIcon sx={{ mr: 1 }} />,
     path: "/projects",
   },
 ];
 
-export const LOGO_SKILLS=[
+export const LOGO_SKILLS = [
   {
-    url:"/public/javascript-3.png",alt:"JavaScript Logo",tooltip:"intermediate"
+    url: "/public/javascript-3.png",
+    alt: "JavaScript Logo",
+    tooltip: "intermediate",
   },
   {
-    url:"/public/html5.png",alt:"HTML5 Logo",tooltip:"avanced "
+    url: "/public/html5.png",
+    alt: "HTML5 Logo",
+    tooltip: "avanced ",
   },
   {
-    url:"/public/css3-emblem-blue-shield-and-white-text-vector.jpg",alt:"CSS Logo",tooltip:"intermediate "
+    url: "/public/css3-emblem-blue-shield-and-white-text-vector.jpg",
+    alt: "CSS Logo",
+    tooltip: "intermediate ",
   },
   {
-    url:"/public/react-icon-2048x2048-o8k3ymqa.png",alt:"React Logo",tooltip:"intermediate "
+    url: "/public/react-icon-2048x2048-o8k3ymqa.png",
+    alt: "React Logo",
+    tooltip: "intermediate ",
   },
   {
-    url:"/public/mongoDb.png",alt:"MongoDB Logo",tooltip:"basic "
+    url: "/public/mongoDb.png",
+    alt: "MongoDB Logo",
+    tooltip: "basic ",
   },
   {
-    url:"/public/node.png",alt:"NodeJs Logo",tooltip:"basic "
+    url: "/public/node.png",
+    alt: "NodeJs Logo",
+    tooltip: "basic ",
   },
   {
-    url:"/public/express.png",alt:"express Logo",tooltip:"basic "
-  }
-]
+    url: "/public/express.png",
+    alt: "express Logo",
+    tooltip: "basic ",
+  },
+];
+
+export const PROYECTS = [
+  {
+    title: "Project Llama",
+    url: "/public/project_llama.png",
+    description:
+      "This project aims to manage employees, events, and tasks. It has a backend that stores the data and performs CRUD operations.",
+    libraries:"Stack MERN , CSS , HTML, JS , DND-KIT, RESEND, Big Calendar"
+    },
+];

@@ -1,4 +1,4 @@
-import { Container, Stack, Tooltip, Typography } from "@mui/material";
+import { Container, Tooltip, Typography, Grid } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import { motion } from "framer-motion";
 import { LOGO_SKILLS } from "../data/commons";
@@ -18,7 +18,7 @@ const AboutMe = () => {
           More About Me
         </Typography>
         <Typography variant="body2" fontSize={29}>
-          Im a passionate frontend developer with solid experience in{" "}
+          I&apos;m a passionate frontend developer with solid experience in{" "}
           <strong style={{ color: COLOR_3 }}>
             React, HTML, CSS, and JavaScript
           </strong>
@@ -28,40 +28,33 @@ const AboutMe = () => {
         </Typography>
         <Typography pt={4} variant="body2" fontSize={29}>
           My commitment to excellence is reflected in every project I work on,
-          always striving to offer innovative and efficient solutions. Im
-          dedicated to making a positive impact on users lives through my work,
-          and Im excited about the opportunities the future may bring.
+          always striving to offer innovative and efficient solutions. I&apos;m
+          dedicated to making a positive impact on users&apos; lives through my work,
+          and I&apos;m excited about the opportunities the future may bring.
         </Typography>
-
         <Typography
-          py={5}
+          py={10}
           variant="h4"
           textAlign={"center"}
           fontWeight={"bold"}
           color={COLOR_3}
         >
-          PROFESIONAL SKILLSET
+          PROFESSIONAL SKILLSET
         </Typography>
-        <Stack
-          direction="row"
-          flexWrap="wrap"
-          justifyContent="center"
-          spacing={5}
-        >
+        <Grid container mb={4} spacing={2} justifyContent="center">
           {LOGO_SKILLS.map((logo) => (
-            <Tooltip
-            key={logo.alt}
-            title={logo.tooltip}
-            >
-              <motion.div
-                style={{ width: "12%" }}
-                whileHover={{ scale: 1.1 }}
-              >
-                <img src={logo.url} alt={logo.alt} style={{ width: "100%" }} />
-              </motion.div>
-            </Tooltip>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={logo.alt}>
+              <Tooltip title={logo.tooltip}>
+                <motion.div
+                  style={{ width: "100%", textAlign: "center" }}
+                  whileHover={{ scale: 1.1 }}
+                >
+                  <img src={logo.url} alt={logo.alt} style={{ width: "50%" }} />
+                </motion.div>
+              </Tooltip>
+            </Grid>
           ))}
-        </Stack>
+        </Grid>
       </Container>
     </Reveal>
   );
