@@ -5,10 +5,7 @@ This project is a personal portfolio website built with React and Vite. It showc
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Installation
 
@@ -22,3 +19,4 @@ Make sure you have Node.js and npm installed. You can download them from [nodejs
 git clone https://github.com/angeloChoque/My-Portfolio.git
 cd My-Portfolio
 npm install
+npm run dev
