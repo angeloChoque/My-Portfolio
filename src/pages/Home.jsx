@@ -4,9 +4,9 @@ import { COLOR_2 } from "../assets/color";
 
 const Home = () => {
   return (
-    <Container component={"main"}>
+    <Container id={"home"} component={"section"}>
       <Grid  container  spacing={2}>
-        <Grid component={"section"} item xs={12} md={6}>
+        <Grid component={"aside"} item xs={12} md={6}>
         <motion.h1
             transition={{ duration: 0.6 }}
             animate={{ y: 105 }}
@@ -36,7 +36,7 @@ const Home = () => {
             and Im Fronted Developer
           </motion.h2>
         </Grid>
-        <Grid component={"article"} item xs={12} md={6} mt={10} >
+        <Grid component={"figure"} item xs={12} md={6} mt={10} >
           <img src="/public/imagen.avif" style={{ maxWidth: "100%" }} />
         </Grid>
       </Grid>

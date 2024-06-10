@@ -9,18 +9,21 @@ const theme = createTheme({
       main: "rgb(118, 68, 95)",
     },
     secondary: {
-      main: "rgb(203, 161, 139)",
+      main: "rgb(146, 43, 33)",
     },
+    outline:{
+      main:"#339194"
+    }
   },
   components: {
     MuiCssBaseline: {
       styleOverrides: {
         body: {
           background: "white",
-            // "linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%)",
-          // backgroundSize: "cover",
-          // height: "100vh",
         },
+        html:{
+          scrollBehavior:"smooth"
+        }
       },
     },
   },

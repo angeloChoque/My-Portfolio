@@ -1,13 +1,20 @@
-import { Container, Tooltip, Typography, Grid } from "@mui/material";
+import {
+  Container,
+  Tooltip,
+  Typography,
+  Grid,
+  IconButton,
+  Box,
+} from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import { motion } from "framer-motion";
 import { LOGO_SKILLS } from "../data/commons";
 import Reveal from "../components/Reveal";
-
+import GitHubIcon from "@mui/icons-material/GitHub";
 const AboutMe = () => {
   return (
     <Reveal>
-      <Container>
+      <Container id={"about"}>
         <Typography
           my={5}
           color={COLOR_3}
@@ -29,8 +36,9 @@ const AboutMe = () => {
         <Typography pt={4} variant="body2" fontSize={29}>
           My commitment to excellence is reflected in every project I work on,
           always striving to offer innovative and efficient solutions. I&apos;m
-          dedicated to making a positive impact on users&apos; lives through my work,
-          and I&apos;m excited about the opportunities the future may bring.
+          dedicated to making a positive impact on users&apos; lives through my
+          work, and I&apos;m excited about the opportunities the future may
+          bring.
         </Typography>
         <Typography
           py={10}
@@ -55,6 +63,23 @@ const AboutMe = () => {
             </Grid>
           ))}
         </Grid>
+        <Typography
+          py={2}
+          variant="h4"
+          textAlign={"center"}
+          fontWeight={"bold"}
+          color={COLOR_3}
+        >
+          CONTACT ME
+        </Typography>
+        <Box display="flex" justifyContent="center" pb={2}>
+          <IconButton
+            href="https://github.com/angeloChoque"
+            target="_blank"
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Box>
       </Container>
     </Reveal>
   );
