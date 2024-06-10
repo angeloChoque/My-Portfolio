@@ -3,14 +3,11 @@ import {
   Tooltip,
   Typography,
   Grid,
-  IconButton,
-  Box,
 } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import { motion } from "framer-motion";
 import { LOGO_SKILLS } from "../data/commons";
 import Reveal from "../components/Reveal";
-import GitHubIcon from "@mui/icons-material/GitHub";
 const AboutMe = () => {
   return (
     <Reveal>
@@ -63,23 +60,6 @@ const AboutMe = () => {
             </Grid>
           ))}
         </Grid>
-        <Typography
-          py={2}
-          variant="h4"
-          textAlign={"center"}
-          fontWeight={"bold"}
-          color={COLOR_3}
-        >
-          CONTACT ME
-        </Typography>
-        <Box display="flex" justifyContent="center" pb={2}>
-          <IconButton
-            href="https://github.com/angeloChoque"
-            target="_blank"
-          >
-            <GitHubIcon fontSize="large" />
-          </IconButton>
-        </Box>
       </Container>
     </Reveal>
   );

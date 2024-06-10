@@ -6,12 +6,15 @@ import {
   CardContent,
   Container,
   Grid,
+  IconButton,
   Stack,
   Typography,
 } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import Reveal from "../components/Reveal";
 import { PROYECTS } from "../data/commons";
+import GitHubIcon from "@mui/icons-material/GitHub";
+
 
 const Projects = () => {
   return (
@@ -90,6 +93,23 @@ const Projects = () => {
             </Card>
           ))}
         </Stack>
+        <Typography
+          py={2}
+          variant="h4"
+          textAlign={"center"}
+          fontWeight={"bold"}
+          color={COLOR_3}
+        >
+          CONTACT ME
+        </Typography>
+        <Box display="flex" justifyContent="center" pb={2}>
+          <IconButton
+            href="https://github.com/angeloChoque"
+            target="_blank"
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Box>
       </Container>
     </Reveal>
   );
