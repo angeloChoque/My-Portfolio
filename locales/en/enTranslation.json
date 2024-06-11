@@ -2,7 +2,8 @@
     "header":{
         "home": "Home",
         "about": "About",
-        "projects": "Projects"
+        "projects": "Projects",
+        "contact":"Contact"
     },
     "home": {
         "title_page": "MY PORTFOLIO",
@@ -22,10 +23,9 @@
     "projects": {
         "section_title": "My Projects",
         "section_subtitle": "Here are all my projects completed so far.",
-        "description_title": "Description:",
+        "description_title": "Description:", 
         "libraries_title": "Frameworks & libraries:",
         "view":"View",
-        "contact_title": "CONTACT ME",
         "project_llama": {
             "title": "Project Llama",
             "description": "This project aims to manage employees, events, and tasks. It has a backend that stores the data and performs CRUD operations.",
@@ -41,6 +41,22 @@
             "description": "This is a landing page for a shoe store that was made with CSS3, HTML5, and Bootstrap. The objective is to learn how to implement HTML5 and CSS3 structure, as well as the Bootstrap library.",
             "libraries": "CSS , HTML , Bootstrap 5"
             }
+    },
+    "contact":{
+        "contact_title": "CONTACT ME",
+        "write_details": "Write your details here and they will be sent to my email so I can get in touch with you. If you want to contact me, leave a comment, or report a bug.",
+        "full_name": "Full Name",
+        "email": "Email",
+        "type": "Type",
+        "bug": "Bug",
+        "contact": "Contact",
+        "comment": "Comment",
+        "comment_label": "Comment",
+        "send": "Send"
+    },
+    "status_messages": {
+        "success": "Form submitted successfully!",
+        "error": "There was an error submitting the form."
     }
 }
 

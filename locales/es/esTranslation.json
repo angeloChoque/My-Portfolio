@@ -2,7 +2,8 @@
     "header":{
         "home": "Inicio",
         "about": "Sobre mi",
-        "projects": "Proyectos"
+        "projects": "Proyectos",
+        "contact":"Contacto"
     },
     "home": {
         "title_page": "MI PORTAFOLIO",
@@ -25,7 +26,6 @@
         "description_title": "Descripción:",
         "libraries_title": "Frameworks y bibliotecas:",
         "view":"Ver",
-        "contact_title": "CONTÁCTAME",
         "project_llama": {
             "title": "Proyecto Llama",
             "description": "Este proyecto tiene como objetivo gestionar empleados, eventos y tareas. Tiene un backend que almacena los datos y realiza operaciones CRUD.",
@@ -37,9 +37,25 @@
             "libraries": "CSS , HTML, Javascript, React , MUI"
         },
         "online_store_project": {
-            "title": "Proyecto de Tienda en Línea",
+            "title": "Proyecto de Tienda en Línea", 
             "description": "Esta es una página de aterrizaje para una tienda de zapatos que se realizó con CSS3, HTML5 y Bootstrap. El objetivo es aprender a implementar la estructura HTML5 y CSS3, así como la biblioteca Bootstrap.",
             "libraries": "CSS , HTML , Bootstrap 5"
         }
+    },
+    "contact":{
+        "contact_title": "CONTÁCTAME",
+        "write_details": "Escribe tus detalles aquí y serán enviados a mi correo electrónico para que pueda ponerme en contacto contigo. Si quieres contactarme, deja un comentario o reporta un error.",
+        "full_name": "Nombre completo",
+        "email": "Correo electrónico",
+        "type": "Tipo",
+        "bug": "Error",
+        "contact": "Contacto",
+        "comment": "Comentario",
+        "comment_label": "Comentario",
+        "send": "Enviar"
+    },
+    "status_messages": {
+        "success": "¡Formulario enviado con éxito!",
+        "error": "Hubo un error al enviar el formulario."
     }
 }
