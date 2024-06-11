@@ -6,55 +6,55 @@ export const ITEM = [
   {
     title: "header.home",
     icon: <HomeIcon sx={{ mr: 1 }} />,
-    path: "/#home",
+    path: "/My-Portfolio/#home",
   },
   {
     title: "header.about",
     icon: <PersonIcon sx={{ mr: 1 }} />,
-    path: "/#about",
+    path: "/My-Portfolio/#about",
   },
   {
     title: "header.projects",
     icon: <AirplayIcon sx={{ mr: 1 }} />,
-    path: "/#projects",
+    path: "/My-Portfolio/#projects",
   },
 ];
 
 export const LOGO_SKILLS = [
   {
-    url: "/public/javascript-3.png",
+    url: "/My-Portfolio/javascript-3.png",
     alt: "JavaScript Logo",
     tooltip: "intermediate",
   },
   {
-    url: "/public/html5.png",
+    url: "/My-Portfolio/html5.png",
     alt: "HTML5 Logo",
-    tooltip: "avanced ",
+    tooltip: "advanced",
   },
   {
-    url: "/public/css3-emblem-blue-shield-and-white-text-vector.jpg",
+    url: "/My-Portfolio/css3-emblem-blue-shield-and-white-text-vector.jpg",
     alt: "CSS Logo",
-    tooltip: "intermediate ",
+    tooltip: "intermediate",
   },
   {
-    url: "/public/react-icon-2048x2048-o8k3ymqa.png",
+    url: "/My-Portfolio/react-icon-2048x2048-o8k3ymqa.png",
     alt: "React Logo",
-    tooltip: "intermediate ",
+    tooltip: "intermediate",
   },
   {
-    url: "/public/mongoDb.png",
+    url: "/My-Portfolio/mongoDb.png",
     alt: "MongoDB Logo",
-    tooltip: "basic ",
+    tooltip: "basic",
   },
   {
-    url: "/public/node.png",
+    url: "/My-Portfolio/node.png",
     alt: "NodeJs Logo",
-    tooltip: "basic ",
+    tooltip: "basic",
   },
   {
-    url: "/public/express.png",
-    alt: "express Logo",
-    tooltip: "basic ",
+    url: "/My-Portfolio/express.png",
+    alt: "Express Logo",
+    tooltip: "basic",
   },
 ];
 
@@ -62,8 +62,8 @@ export const PROYECTS = [
   {
     title: "projects.project_llama.title",
     color: "#339194",
-    url: "/project_llama.png",
-    description:"projects.project_llama.description",
+    url: "/My-Portfolio/project_llama.png",
+    description: "projects.project_llama.description",
     libraries: "projects.project_llama.libraries",
     href_1: "https://github.com/angeloChoque/Project-Llama",
     href_2: "",
@@ -71,8 +71,8 @@ export const PROYECTS = [
   {
     title: "projects.project_llama.title",
     color: "rgb(146, 43, 33)",
-    url: "/page_plaza_vea.png",
-    description:"projects.project_plaza_vea.description",
+    url: "/My-Portfolio/page_plaza_vea.png",
+    description: "projects.project_plaza_vea.description",
     libraries: "projects.project_plaza_vea.libraries",
     href_1: "https://github.com/Nyxzaf/Proyecto-compartido-web",
     href_2: "https://nyxzaf.github.io/Proyecto-compartido-web/",
@@ -80,8 +80,8 @@ export const PROYECTS = [
   {
     title: "projects.project_llama.title",
     color: "#333333",
-    url: "/pagina_html_css.png",
-    description:"projects.online_store_project.description",
+    url: "/My-Portfolio/pagina_html_css.png",
+    description: "projects.online_store_project.description",
     libraries: "projects.online_store_project.libraries",
     href_1: "https://github.com/angeloChoque/proyect-html-css",
     href_2: "https://angelochoque.github.io/proyect-html-css/",
