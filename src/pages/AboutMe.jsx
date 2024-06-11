@@ -1,14 +1,13 @@
-import {
-  Container,
-  Tooltip,
-  Typography,
-  Grid,
-} from "@mui/material";
+import { Container, Tooltip, Typography, Grid } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import { motion } from "framer-motion";
 import { LOGO_SKILLS } from "../data/commons";
 import Reveal from "../components/Reveal";
+import { useTranslation } from "react-i18next";
+
 const AboutMe = () => {
+  const { t } = useTranslation();
+
   return (
     <Reveal>
       <Container id={"about"}>
@@ -19,23 +18,17 @@ const AboutMe = () => {
           fontWeight={"BOLD"}
           textAlign={"center"}
         >
-          More About Me
+          {t("about_me.section_title")}
         </Typography>
         <Typography variant="body2" fontSize={29}>
-          I&apos;m a passionate frontend developer with solid experience in{" "}
+          {t("about_me.paragraph1")}
           <strong style={{ color: COLOR_3 }}>
-            React, HTML, CSS, and JavaScript
+          {t("about_me.skills")}
           </strong>
-          . My main goal is to create exceptional user experiences that exceed
-          expectations. I love tackling new challenges and am constantly seeking
-          ways to improve and learn.
+          {t("about_me.paragraph_continue")}
         </Typography>
         <Typography pt={4} variant="body2" fontSize={29}>
-          My commitment to excellence is reflected in every project I work on,
-          always striving to offer innovative and efficient solutions. I&apos;m
-          dedicated to making a positive impact on users&apos; lives through my
-          work, and I&apos;m excited about the opportunities the future may
-          bring.
+        {t("about_me.paragraph2")}
         </Typography>
         <Typography
           py={10}
@@ -44,7 +37,7 @@ const AboutMe = () => {
           fontWeight={"bold"}
           color={COLOR_3}
         >
-          PROFESSIONAL SKILLSET
+        {t("about_me.skillset_title")}
         </Typography>
         <Grid container mb={4} spacing={2} justifyContent="center">
           {LOGO_SKILLS.map((logo) => (

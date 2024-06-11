@@ -10,9 +10,6 @@ const theme = createTheme({
     },
     secondary: {
       main: "rgb(146, 43, 33)",
-    },
-    outline:{
-      main:"#339194"
     }
   },
   components: {

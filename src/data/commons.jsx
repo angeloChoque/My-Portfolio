@@ -4,17 +4,17 @@ import AirplayIcon from "@mui/icons-material/Airplay";
 
 export const ITEM = [
   {
-    title: "Home",
+    title: "header.home",
     icon: <HomeIcon sx={{ mr: 1 }} />,
     path: "/#home",
   },
   {
-    title: "About",
+    title: "header.about",
     icon: <PersonIcon sx={{ mr: 1 }} />,
     path: "/#about",
   },
   {
-    title: "Projects",
+    title: "header.projects",
     icon: <AirplayIcon sx={{ mr: 1 }} />,
     path: "/#projects",
   },
@@ -25,7 +25,6 @@ export const LOGO_SKILLS = [
     url: "/public/javascript-3.png",
     alt: "JavaScript Logo",
     tooltip: "intermediate",
-    href: "",
   },
   {
     url: "/public/html5.png",
@@ -61,33 +60,29 @@ export const LOGO_SKILLS = [
 
 export const PROYECTS = [
   {
-    title: "Project Llama",
+    title: "projects.project_llama.title",
     color: "#339194",
-    url: "/public/project_llama.png",
-    description:
-      "This project aims to manage employees, events, and tasks. It has a backend that stores the data and performs CRUD operations.",
-    libraries:
-      "Stack MERN , CSS , HTML, Javascript , DND-KIT, RESEND, Big Calendar, MUI , React-Router 6",
+    url: "/project_llama.png",
+    description:"projects.project_llama.description",
+    libraries: "projects.project_llama.libraries",
     href_1: "https://github.com/angeloChoque/Project-Llama",
     href_2: "",
   },
   {
-    title: "Project Plaza Vea",
+    title: "projects.project_llama.title",
     color: "rgb(146, 43, 33)",
-    url: "/public/page_plaza_vea.png",
-    description:
-      " This is a landing page project I created with a partner where we implemented React, MUI, and CSS. Its functionality is to mimic the official Plaza Vea page in Peru. ",
-    libraries: "CSS , HTML, Javascript, React , MUI",
+    url: "/page_plaza_vea.png",
+    description:"projects.project_plaza_vea.description",
+    libraries: "projects.project_plaza_vea.libraries",
     href_1: "https://github.com/Nyxzaf/Proyecto-compartido-web",
     href_2: "https://nyxzaf.github.io/Proyecto-compartido-web/",
   },
   {
-    title: "Online Store Project",
+    title: "projects.project_llama.title",
     color: "#333333",
-    url: "/public/pagina_html_css.png",
-    description:
-      "This is a landing page for a shoe store that was made with CSS3, HTML5, and Bootstrap. The objective is to learn how to implement HTML5 and CSS3 structure, as well as the Bootstrap library.",
-    libraries: "CSS , HTML , Bootstrap 5",
+    url: "/pagina_html_css.png",
+    description:"projects.online_store_project.description",
+    libraries: "projects.online_store_project.libraries",
     href_1: "https://github.com/angeloChoque/proyect-html-css",
     href_2: "https://angelochoque.github.io/proyect-html-css/",
   },

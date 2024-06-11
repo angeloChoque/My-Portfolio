@@ -1,6 +1,6 @@
 import {
   AppBar,
-  Box,
+  Button,
   Slide,
   Stack,
   Toolbar,
@@ -12,12 +12,10 @@ import { ITEM } from "../data/commons";
 import MenuHeader from "./MenuHeader";
 import { COLOR } from "../assets/color";
 import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 
 function HideOnScroll(props) {
   const { children, window } = props;
-  // Note that you normally won't need to set the window ref as useScrollTrigger
-  // will default to window.
-  // This is only being set here because the demo is in an iframe.
   const trigger = useScrollTrigger({
     target: window ? window() : undefined,
   });
@@ -31,25 +29,38 @@ function HideOnScroll(props) {
 
 HideOnScroll.propTypes = {
   children: PropTypes.element.isRequired,
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
-    <HideOnScroll >
+    <HideOnScroll>
       <AppBar position={"sticky"}>
         <Toolbar>
-          <Box flexGrow={1}>
-            {/* <Typography 
-          component={Link}
-          fontSize={22} to="/">
-            AngeloChoque
-          </Typography> */}
-          </Box>
+          <Stack
+            spacing={1}
+            direction={"row"}
+            flexGrow={1}
+            sx={{
+              "& .MuiButton-outlined": {
+                color: "#ffffff",
+                borderColor: "#ffffff",
+              },
+            }}
+          >
+            <Button onClick={() => changeLanguage("en")} variant="outlined">
+              English
+            </Button>
+            <Button onClick={() => changeLanguage("es")} variant="outlined">
+              Spanish
+            </Button>
+          </Stack>
           <Stack
             direction={"row"}
             spacing={5}
@@ -72,7 +83,7 @@ const Header = () => {
                     }}
                   >
                     {item.icon}
-                    {item.title}
+                    {t(item.title)}
                   </Typography>
                 </Tooltip>
               );

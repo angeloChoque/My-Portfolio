@@ -14,9 +14,11 @@ import { COLOR_3 } from "../assets/color";
 import Reveal from "../components/Reveal";
 import { PROYECTS } from "../data/commons";
 import GitHubIcon from "@mui/icons-material/GitHub";
-
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <Reveal>
       <Container id={"projects"}>
@@ -28,12 +30,12 @@ const Projects = () => {
           fontWeight={"BOLD"}
           textAlign={"center"}
         >
-          My Projects
+          {t("projects.section_title")}
         </Typography>
         <Typography variant="body2" fontSize={25} textAlign={"center"}>
-          Here are all my projects completed so far.
+          {t("projects.section_subtitle")}
         </Typography>
-        <Stack spacing={5} my={10}>
+        <Stack spacing={5} mt={10} mb={5}>
           {PROYECTS.map((project, index) => (
             <Card
               key={index}
@@ -51,7 +53,10 @@ const Projects = () => {
                     style={{
                       width: "100%",
                       height: "100%",
-                      borderRadius: { xs: "16px 16px 0 0", sm: "16px 0 0 16px" },
+                      borderRadius: {
+                        xs: "16px 16px 0 0",
+                        sm: "16px 0 0 16px",
+                      },
                     }}
                   />
                 </Grid>
@@ -63,29 +68,41 @@ const Projects = () => {
                       color={project.color}
                       fontWeight={"bold"}
                     >
-                      {project.title}
+                      {t(project.title)}
                     </Typography>
                     <Box mt={1}>
-                      <Typography variant="subtitle1">Description:</Typography>
+                      <Typography variant="subtitle1">
+                        {t("projects.description_title")}
+                      </Typography>
                       <Typography variant="body2" color="text.secondary">
-                        {project.description}
+                        {t(project.description)}
                       </Typography>
                     </Box>
                     <Box mt={2}>
                       <Typography variant="subtitle1">
-                        Frameworks & libraries:
+                        {t("projects.libraries_title")}
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
-                        {project.libraries}
+                        {t(project.libraries)}
                       </Typography>
                     </Box>
                   </CardContent>
                   <CardActions sx={{ justifyContent: "flex-end", mt: 8 }}>
-                    <Button variant="contained" target="_blank" href={project.href_1} color="primary">
+                    <Button
+                      variant="contained"
+                      target="_blank"
+                      href={project.href_1}
+                      color="primary"
+                    >
                       Github
                     </Button>
-                    <Button variant="contained" target="_blank" href={project.href_2}  color="primary">
-                      View
+                    <Button
+                      variant="contained"
+                      target="_blank"
+                      href={project.href_2}
+                      color="primary"
+                    >
+                      {t("projects.view")}
                     </Button>
                   </CardActions>
                 </Grid>
@@ -94,19 +111,15 @@ const Projects = () => {
           ))}
         </Stack>
         <Typography
-          py={2}
           variant="h4"
           textAlign={"center"}
           fontWeight={"bold"}
           color={COLOR_3}
         >
-          CONTACT ME
+          {t("projects.contact_title")}
         </Typography>
         <Box display="flex" justifyContent="center" pb={2}>
-          <IconButton
-            href="https://github.com/angeloChoque"
-            target="_blank"
-          >
+          <IconButton href="https://github.com/angeloChoque" target="_blank">
             <GitHubIcon fontSize="large" />
           </IconButton>
         </Box>
