@@ -42,7 +42,7 @@ const Home = () => {
           </motion.h2>
         </Grid>
         <Grid component={"figure"} item xs={12} md={6} mt={10} >
-          <img src="/My-Portfolio/public/imagen.avif" style={{ maxWidth: "100%" }} />
+          <img src="/My-Portfolio/imagen.avif" style={{ maxWidth: "100%" }} />
         </Grid>
       </Grid>
     </Container>
