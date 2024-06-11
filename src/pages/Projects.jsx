@@ -6,14 +6,12 @@ import {
   CardContent,
   Container,
   Grid,
-  IconButton,
   Stack,
   Typography,
 } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import Reveal from "../components/Reveal";
 import { PROYECTS } from "../data/commons";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import { useTranslation } from "react-i18next";
 
 const Projects = () => {
@@ -110,19 +108,6 @@ const Projects = () => {
             </Card>
           ))}
         </Stack>
-        <Typography
-          variant="h4"
-          textAlign={"center"}
-          fontWeight={"bold"}
-          color={COLOR_3}
-        >
-          {t("projects.contact_title")}
-        </Typography>
-        <Box display="flex" justifyContent="center" pb={2}>
-          <IconButton href="https://github.com/angeloChoque" target="_blank">
-            <GitHubIcon fontSize="large" />
-          </IconButton>
-        </Box>
       </Container>
     </Reveal>
   );

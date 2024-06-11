@@ -1,7 +1,7 @@
 import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
 import AirplayIcon from "@mui/icons-material/Airplay";
-
+import EmailIcon from '@mui/icons-material/Email';
 export const ITEM = [
   {
     title: "header.home",
@@ -17,6 +17,11 @@ export const ITEM = [
     title: "header.projects",
     icon: <AirplayIcon sx={{ mr: 1 }} />,
     path: "/My-Portfolio/#projects",
+  },
+  {
+    title: "header.contact",
+    icon: <EmailIcon sx={{ mr: 1 }} />,
+    path: "/My-Portfolio/#contact",
   },
 ];
 

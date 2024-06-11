@@ -11,9 +11,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { ITEM } from "../data/commons";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const MenuHeader = () => {
   const [Open, setOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <Box>
@@ -42,8 +44,8 @@ const MenuHeader = () => {
                   <ListItemIcon sx={{ justifyContent: "center" }}>
                     {list.icon}
                   </ListItemIcon>
-                  {list.title}
-                </ListItemButton>
+                  {t(list.title)}
+                  </ListItemButton>
               </ListItem>
             );
           })}
