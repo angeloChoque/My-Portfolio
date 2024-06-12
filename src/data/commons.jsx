@@ -61,6 +61,16 @@ export const LOGO_SKILLS = [
     alt: "Express Logo",
     tooltip: "basic",
   },
+  {
+    url: "/My-Portfolio/git.png",
+    alt: "Git Logo",
+    tooltip: "intermediate",
+  },
+  {
+    url: "/My-Portfolio/github.png",
+    alt: "GitHub Logo",
+    tooltip: "intermediate",
+  },
 ];
 
 export const PROYECTS = [
