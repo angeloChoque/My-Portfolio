@@ -71,10 +71,10 @@ export const PROYECTS = [
     description: "projects.project_llama.description",
     libraries: "projects.project_llama.libraries",
     href_1: "https://github.com/angeloChoque/Project-Llama",
-    href_2: "",
+    href_2: "https://angelochoque.github.io/Project-Llama",
   },
   {
-    title: "projects.project_llama.title",
+    title: "projects.project_plaza_vea.title",
     color: "rgb(146, 43, 33)",
     url: "/My-Portfolio/page_plaza_vea.png",
     description: "projects.project_plaza_vea.description",
@@ -83,7 +83,7 @@ export const PROYECTS = [
     href_2: "https://nyxzaf.github.io/Proyecto-compartido-web/",
   },
   {
-    title: "projects.project_llama.title",
+    title: "projects.online_store_project.title",
     color: "#333333",
     url: "/My-Portfolio/pagina_html_css.png",
     description: "projects.online_store_project.description",
