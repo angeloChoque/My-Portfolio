@@ -73,11 +73,11 @@ export const LOGO_SKILLS = [
   },
 ];
 
-export const PROYECTS = [
+export const PROJECTS = [
   {
     title: "projects.project_llama.title",
     color: "#339194",
-    url: "/My-Portfolio/project_llama.png",
+    url: "/My-Portfolio/project-llama.png",
     description: "projects.project_llama.description",
     libraries: "projects.project_llama.libraries",
     href_1: "https://github.com/angeloChoque/Project-Llama",
@@ -86,7 +86,7 @@ export const PROYECTS = [
   {
     title: "projects.project_plaza_vea.title",
     color: "rgb(146, 43, 33)",
-    url: "/My-Portfolio/page_plaza_vea.png",
+    url: "/My-Portfolio/plazavea.png",
     description: "projects.project_plaza_vea.description",
     libraries: "projects.project_plaza_vea.libraries",
     href_1: "https://github.com/Nyxzaf/Proyecto-compartido-web",
@@ -95,7 +95,7 @@ export const PROYECTS = [
   {
     title: "projects.online_store_project.title",
     color: "#333333",
-    url: "/My-Portfolio/pagina_html_css.png",
+    url: "/My-Portfolio/angelochoque-github-io-proyect-html-css-2024-06-21-02_04_58.png",
     description: "projects.online_store_project.description",
     libraries: "projects.online_store_project.libraries",
     href_1: "https://github.com/angeloChoque/proyect-html-css",

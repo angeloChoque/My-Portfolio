@@ -29,17 +29,17 @@
         "project_llama": {
             "title": "Project Llama",
             "description": "This project aims to manage employees, events, and tasks. It has a backend that stores the data and performs CRUD operations.",
-            "libraries": "Stack MERN , CSS , HTML, Javascript , DND-KIT, RESEND, Big Calendar, MUI , React-Router 6"
+            "libraries": "Stack MERN, CSS, HTML, Javascript, DND-KIT, RESEND, Big Calendar, MUI, React-Router 6"
             },
         "project_plaza_vea": { 
             "title": "Project Plaza Vea",
             "description": "This is a landing page project I created with a partner where we implemented React, MUI, and CSS. Its functionality is to mimic the official Plaza Vea page in Peru.",
-            "libraries": "CSS , HTML, Javascript, React , MUI"
+            "libraries": "CSS, HTML, Javascript, React , MUI"
             },
         "online_store_project": {
             "title": "Online Store Project",
             "description": "This is a landing page for a shoe store that was made with CSS3, HTML5, and Bootstrap. The objective is to learn how to implement HTML5 and CSS3 structure, as well as the Bootstrap library.",
-            "libraries": "CSS , HTML , Bootstrap 5"
+            "libraries": "CSS, HTML, Bootstrap 5"
             }
     },
     "contact":{

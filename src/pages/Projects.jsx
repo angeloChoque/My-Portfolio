@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import Reveal from "../components/Reveal";
-import { PROYECTS } from "../data/commons";
+import { PROJECTS } from "../data/commons";
 import { useTranslation } from "react-i18next";
 
 const Projects = () => {
@@ -34,7 +34,7 @@ const Projects = () => {
           {t("projects.section_subtitle")}
         </Typography>
         <Stack spacing={5} mt={10} mb={5}>
-          {PROYECTS.map((project, index) => (
+          {PROJECTS.map((project, index) => (
             <Card
               key={index}
               sx={{

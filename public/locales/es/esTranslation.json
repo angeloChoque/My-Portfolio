@@ -29,17 +29,17 @@
         "project_llama": {
             "title": "Proyecto Llama",
             "description": "Este proyecto tiene como objetivo gestionar empleados, eventos y tareas. Tiene un backend que almacena los datos y realiza operaciones CRUD.",
-            "libraries": "Stack MERN , CSS , HTML, Javascript , DND-KIT, RESEND, Big Calendar, MUI , React-Router 6"
+            "libraries": "Stack MERN, CSS, HTML, Javascript, DND-KIT, RESEND, Big Calendar, MUI , React-Router 6"
         },
         "project_plaza_vea": {
             "title": "Proyecto Plaza Vea",
             "description": "Este es un proyecto de página de aterrizaje que creé con un compañero donde implementamos React, MUI y CSS. Su funcionalidad es imitar la página oficial de Plaza Vea en Perú.",
-            "libraries": "CSS , HTML, Javascript, React , MUI"
+            "libraries": "CSS, HTML, Javascript, React , MUI"
         },
         "online_store_project": {
             "title": "Proyecto de Tienda en Línea", 
             "description": "Esta es una página de aterrizaje para una tienda de zapatos que se realizó con CSS3, HTML5 y Bootstrap. El objetivo es aprender a implementar la estructura HTML5 y CSS3, así como la biblioteca Bootstrap.",
-            "libraries": "CSS , HTML , Bootstrap 5"
+            "libraries": "CSS, HTML, Bootstrap 5"
         }
     },
     "contact":{

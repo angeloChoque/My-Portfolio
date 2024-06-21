@@ -22,13 +22,11 @@ const AboutMe = () => {
         </Typography>
         <Typography variant="body2" fontSize={29}>
           {t("about_me.paragraph1")}
-          <strong style={{ color: COLOR_3 }}>
-          {t("about_me.skills")}
-          </strong>
+          <strong style={{ color: COLOR_3 }}>{t("about_me.skills")}</strong>
           {t("about_me.paragraph_continue")}
         </Typography>
         <Typography pt={4} variant="body2" fontSize={29}>
-        {t("about_me.paragraph2")}
+          {t("about_me.paragraph2")}
         </Typography>
         <Typography
           py={10}
@@ -37,12 +35,14 @@ const AboutMe = () => {
           fontWeight={"bold"}
           color={COLOR_3}
         >
-        {t("about_me.skillset_title")}
+          {t("about_me.skillset_title")}
         </Typography>
         <Grid container mb={4} spacing={2} justifyContent="center">
           {LOGO_SKILLS.map((logo) => (
             <Grid item xs={12} sm={6} md={4} lg={3} key={logo.alt}>
-              <Tooltip title={logo.tooltip}>
+              <Tooltip
+                title={<Typography fontSize="1.5em">{logo.tooltip}</Typography>}
+              >
                 <motion.div
                   style={{ width: "100%", textAlign: "center" }}
                   whileHover={{ scale: 1.1 }}
