@@ -1,7 +1,7 @@
 import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
 import AirplayIcon from "@mui/icons-material/Airplay";
-import EmailIcon from '@mui/icons-material/Email';
+import EmailIcon from "@mui/icons-material/Email";
 export const ITEM = [
   {
     title: "header.home",
@@ -100,5 +100,14 @@ export const PROJECTS = [
     libraries: "projects.online_store_project.libraries",
     href_1: "https://github.com/angeloChoque/proyect-html-css",
     href_2: "https://angelochoque.github.io/proyect-html-css/",
+  },
+  {
+    title: "projects.project_shopping_cart.title",
+    color: "rgb(236, 114, 23)",
+    url: "/My-Portfolio/shopping_cart.png",
+    description: "projects.project_shopping_cart.description",
+    libraries: "projects.project_shopping_cart.libraries",
+    href_1: "https://github.com/angeloChoque/project-shopping-cart",
+    href_2: "https://angelochoque.github.io/project-shopping-cart/",
   },
 ];

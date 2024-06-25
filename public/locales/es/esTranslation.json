@@ -23,6 +23,7 @@
     "projects": {
         "section_title": "Mis Proyectos",
         "section_subtitle": "Aquí están todos mis proyectos completados hasta ahora.",
+        "Important_announcement":"Por favor, espere mientras carga la base de datos. Este proceso podría tardar entre 2 a 3 minutos.",
         "description_title": "Descripción:",
         "libraries_title": "Frameworks y bibliotecas:",
         "view":"Ver",
@@ -40,7 +41,12 @@
             "title": "Proyecto de Tienda en Línea", 
             "description": "Esta es una página de aterrizaje para una tienda de zapatos que se realizó con CSS3, HTML5 y Bootstrap. El objetivo es aprender a implementar la estructura HTML5 y CSS3, así como la biblioteca Bootstrap.",
             "libraries": "CSS, HTML, Bootstrap 5"
-        }
+        },
+        "project_shopping_cart":{
+            "title":"Proyecto Carrito de Compras",
+            "description": " Esta es una página para una tienda de electrónicos creada con el Stack MERN, CSS, JavaScript y MUI. El objetivo de este proyecto es demostrar cómo implementar un carrito de compras funcional. A través de este proyecto, se aprenderá a estructurar y diseñar páginas web utilizando HTML5 y CSS3, además de aplicar la biblioteca Bootstrap para mejorar la interfaz de usuario.",
+            "libraries": "MERN Stack, CSS, JavaScript, and MUI"
+            }
     },
     "contact":{
         "contact_title": "CONTÁCTAME",
