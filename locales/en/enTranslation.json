@@ -44,7 +44,7 @@
             },
         "project_shopping_cart":{
             "title":"Project shopping Cart",
-            "description": "This is a page for an electronics store created with the MERN Stack, CSS, JavaScript, and MUI. The objective of this project is to demonstrate how to implement a functional shopping cart. Through this project, you will learn how to structure and design web pages using HTML5 and CSS3, as well as apply the Bootstrap library to enhance the user interface.",
+            "description": "This is a page for an electronics store created with the MERN Stack, CSS, JavaScript, and MUI. The objective of this project is to demonstrate how to implement a functional shopping cart.",
             "libraries": "MERN Stack, CSS, JavaScript, and MUI"
             }
     },

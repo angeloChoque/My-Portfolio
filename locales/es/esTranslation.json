@@ -44,7 +44,7 @@
         },
         "project_shopping_cart":{
             "title":"Proyecto Carrito de Compras",
-            "description": " Esta es una página para una tienda de electrónicos creada con el Stack MERN, CSS, JavaScript y MUI. El objetivo de este proyecto es demostrar cómo implementar un carrito de compras funcional. A través de este proyecto, se aprenderá a estructurar y diseñar páginas web utilizando HTML5 y CSS3, además de aplicar la biblioteca Bootstrap para mejorar la interfaz de usuario.",
+            "description": " Esta es una página para una tienda de electrónicos creada con el Stack MERN, CSS, JavaScript y MUI. El objetivo de este proyecto es demostrar cómo implementar un carrito de compras funcional.",
             "libraries": "MERN Stack, CSS, JavaScript, and MUI"
             }
     },
