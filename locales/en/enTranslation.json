@@ -23,6 +23,7 @@
     "projects": {
         "section_title": "My Projects",
         "section_subtitle": "Here are all my projects completed so far.",
+        "Important_announcement":"Please wait while the database loads. This process could take between 2 to 3 minutes.",
         "description_title": "Description:", 
         "libraries_title": "Frameworks & libraries:",
         "view":"View",
@@ -40,6 +41,11 @@
             "title": "Online Store Project",
             "description": "This is a landing page for a shoe store that was made with CSS3, HTML5, and Bootstrap. The objective is to learn how to implement HTML5 and CSS3 structure, as well as the Bootstrap library.",
             "libraries": "CSS, HTML, Bootstrap 5"
+            },
+        "project_shopping_cart":{
+            "title":"Project shopping Cart",
+            "description": "This is a page for an electronics store created with the MERN Stack, CSS, JavaScript, and MUI. The objective of this project is to demonstrate how to implement a functional shopping cart. Through this project, you will learn how to structure and design web pages using HTML5 and CSS3, as well as apply the Bootstrap library to enhance the user interface.",
+            "libraries": "MERN Stack, CSS, JavaScript, and MUI"
             }
     },
     "contact":{
