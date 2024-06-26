@@ -33,9 +33,6 @@ const Projects = () => {
         <Typography variant="body2" fontSize={25} textAlign={"center"}>
           {t("projects.section_subtitle")}
         </Typography>
-        <Typography variant="body2" fontSize={25} color={"red"} textAlign={"center"}>
-          {t("projects.Important_announcement")}
-        </Typography>
         <Stack spacing={5} mt={10} mb={5}>
           {PROJECTS.map((project, index) => (
             <Card
