@@ -65,7 +65,7 @@ const Header = () => {
             direction={"row"}
             spacing={5}
             alignItems={"center"}
-            display={{ xs: "none", sm: "block" }}
+            display={{ xs: "none", md: "block" }}
           >
             {ITEM.map((item) => {
               return (

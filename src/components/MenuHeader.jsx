@@ -23,12 +23,12 @@ const MenuHeader = () => {
         aria-label="open drawer"
         onClick={() => setOpen(true)}
         edge="start"
-        sx={{ display: { xs: "block", sm: "none" } }}
+        sx={{ display: { xs: "block", md: "none" } }}
       >
         <MenuIcon />
       </IconButton>
       <Drawer
-        sx={{ display: { xs: "block", sm: "none" } }}
+        sx={{ display: { xs: "block", md: "none" } }}
         open={Open}
         onClose={() => setOpen(false)}
       >
