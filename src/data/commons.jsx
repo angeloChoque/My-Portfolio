@@ -6,22 +6,22 @@ export const ITEM = [
   {
     title: "header.home",
     icon: <HomeIcon sx={{ mr: 1 }} />,
-    path: "/My-Portfolio/#home",
+    path: "#home",
   },
   {
     title: "header.about",
     icon: <PersonIcon sx={{ mr: 1 }} />,
-    path: "/My-Portfolio/#about",
+    path: "#about",
   },
   {
     title: "header.projects",
     icon: <AirplayIcon sx={{ mr: 1 }} />,
-    path: "/My-Portfolio/#projects",
+    path: "#projects",
   },
   {
     title: "header.contact",
     icon: <EmailIcon sx={{ mr: 1 }} />,
-    path: "/My-Portfolio/#contact",
+    path: "#contact",
   },
 ];
 
@@ -71,6 +71,11 @@ export const LOGO_SKILLS = [
     alt: "GitHub Logo",
     tooltip: "intermediate",
   },
+  {
+    url: "/My-Portfolio/astro.png",
+    alt: "astro Logo",
+    tooltip: "intermediate",
+  },
 ];
 
 export const PROJECTS = [
@@ -109,5 +114,14 @@ export const PROJECTS = [
     libraries: "projects.project_shopping_cart.libraries",
     href_1: "https://github.com/angeloChoque/project-shopping-cart",
     href_2: "https://angelochoque.github.io/project-shopping-cart/",
+  },
+  {
+    title: "projects.project_astro.title",
+    color: "rgb(240, 65, 255)",
+    url: "/My-Portfolio/astro_project.png",
+    description: "projects.project_astro.description",
+    libraries: "projects.project_astro.libraries",
+    href_1: "https://github.com/angeloChoque/Landing-Page-Astro",
+    href_2: "https://angelochoque.github.io/Landing-Page-Astro/",
   },
 ];

@@ -10,7 +10,6 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 import { ITEM } from "../data/commons";
-import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const MenuHeader = () => {
@@ -38,14 +37,14 @@ const MenuHeader = () => {
               <ListItem key={list.title} disablePadding sx={{ my: 1 }}>
                 <ListItemButton
                   sx={{ flexDirection: "column" }}
-                  component={Link}
                   to={list.path}
+                  onClick={() => setOpen(false)}
                 >
                   <ListItemIcon sx={{ justifyContent: "center" }}>
                     {list.icon}
                   </ListItemIcon>
                   {t(list.title)}
-                  </ListItemButton>
+                </ListItemButton>
               </ListItem>
             );
           })}

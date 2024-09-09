@@ -13,6 +13,7 @@ import { COLOR_3 } from "../assets/color";
 import Reveal from "../components/Reveal";
 import { PROJECTS } from "../data/commons";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -24,7 +25,7 @@ const Projects = () => {
           variant="h3"
           pt={5}
           pb={2}
-          color={COLOR_3} 
+          color={COLOR_3}
           fontWeight={"BOLD"}
           textAlign={"center"}
         >
@@ -45,18 +46,32 @@ const Projects = () => {
             >
               <Grid container>
                 <Grid item xs={12} md={6}>
-                  <img
-                    src={project.url}
-                    alt={project.title}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      borderRadius: {
-                        xs: "16px 16px 0 0",
-                        sm: "16px 0 0 16px",
-                      },
-                    }}
-                  />
+                  <a
+                    href={project.href_2}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ display: "block" }}
+                  >
+                    <motion.div
+                      style={{
+                        textAlign: "center",
+                      }}
+                      whileHover={{ scale: 0.98 }}
+                    >
+                      <img
+                        src={project.url}
+                        alt={project.title}
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          borderRadius: {
+                            xs: "16px 16px 0 0",
+                            sm: "16px 0 0 16px",
+                          },
+                        }}
+                      />
+                    </motion.div>
+                  </a>
                 </Grid>
                 <Grid item xs={12} md={6}>
                   <CardContent>
