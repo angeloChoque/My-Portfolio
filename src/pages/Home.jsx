@@ -47,16 +47,16 @@ const Home = () => {
             {t("home.job_title")}
           </motion.h2>
           <Stack
-            direction={"row"}
-            my={10}
+            mt={8}
             spacing={1}
+            justifyContent={{ xs: "center", md: "left" }}
+            direction={"row"}
             alignItems={"center"}
-            ml={15}
           >
             <GitHub />
             <Linkedin />
             <Link href="mailto:ancricoma_angelo@hotmail.com">
-              <Email sx={{ fontSize: 40, color: "#a19e9a" }} />
+              <Email sx={{ fontSize: 40, color: "rgb(203, 161, 139)" }} />
             </Link>
           </Stack>
         </Grid>

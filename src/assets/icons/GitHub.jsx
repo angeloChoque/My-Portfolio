@@ -3,7 +3,7 @@ export default function GitHub() {
     <a
       href="https://github.com/angeloChoque"
       target="_blank"
-      style={{ textDecoration: "none", color: "inherit" }}
+      style={{ textDecoration: "none", color: "rgb(203, 161, 139)" }}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

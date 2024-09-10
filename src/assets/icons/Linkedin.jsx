@@ -3,7 +3,7 @@ export default function Linkedin() {
     <a
       href="https://www.linkedin.com/in/angelochoquemaravi/"
       target="_blank"
-      style={{ textDecoration: "none", color: "#0e76a8" }}
+      style={{ textDecoration: "none", color: "rgb(203, 161, 139)" }}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -17,3 +17,4 @@ export default function Linkedin() {
     </a>
   );
 }
+// #0e76a8
