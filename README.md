@@ -1,5 +1,4 @@
 # My Portfolio
-falta poner email en contact me y numero telefonico
 This project is a personal portfolio website built with React and Vite. It showcases my skills, projects, and contact information.
 
 ## Table of Contents
