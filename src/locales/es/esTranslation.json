@@ -1,67 +1,67 @@
 {
-    "header":{
-        "home": "Inicio",
-        "about": "Sobre mi",
-        "projects": "Proyectos",
-        "contact":"Contacto"
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title_page": "MI PORTAFOLIO",
+    "hello_world": "¡Hola mundo👋🏻!",
+    "introduction": "soy ",
+    "name": "Angelo Choque",
+    "job_title": "y soy Desarrollador Frontend"
+  },
+  "about_me": {
+    "section_title": "Más sobre mí",
+    "paragraph1": "Soy un apasionado desarrollador frontend con sólida experiencia en ",
+    "skills": "React, HTML, CSS y JavaScript ",
+    "paragraph_continue": ". Mi principal objetivo es crear experiencias de usuario excepcionales que superen las expectativas. Me encanta enfrentarme a nuevos desafíos y estoy constantemente buscando formas de mejorar y aprender.",
+    "paragraph2": "Mi compromiso con la excelencia se refleja en cada proyecto en el que trabajo, siempre buscando ofrecer soluciones innovadoras y eficientes. Estoy dedicado a tener un impacto positivo en la vida de los usuarios a través de mi trabajo y estoy emocionado por las oportunidades que el futuro pueda traer.",
+    "skillset_title": "HABILIDADES PROFESIONALES"
+  },
+  "projects": {
+    "section_title": "Mis Proyectos",
+    "section_subtitle": "Aquí están todos mis proyectos completados hasta ahora.",
+    "Important_announcement": "Por favor, espere mientras carga la base de datos. Este proceso podría tardar entre 2 a 3 minutos.",
+    "description_title": "Descripción:",
+    "libraries_title": "Frameworks y bibliotecas:",
+    "view": "Ver",
+    "project_llama": {
+      "title": "Proyecto Llama",
+      "description": "Este proyecto tiene como objetivo gestionar empleados, eventos y tareas. Tiene un backend que almacena los datos y realiza operaciones CRUD.",
+      "libraries": "Stack MERN, CSS, HTML, Javascript, DND-KIT, RESEND, Big Calendar, MUI , React-Router 6"
     },
-    "home": {
-        "title_page": "MI PORTAFOLIO",
-        "hello_world": "¡Hola mundo👋🏻!",
-        "introduction": "soy ",
-        "name":"Angelo Choque",        
-        "job_title": "y soy Desarrollador Frontend"
+    "project_plaza_vea": {
+      "title": "Proyecto Plaza Vea",
+      "description": "Este es un proyecto de página de aterrizaje que creé con un compañero donde implementamos React, MUI y CSS. Su funcionalidad es imitar la página oficial de Plaza Vea en Perú.",
+      "libraries": "CSS, HTML, Javascript, React , MUI"
     },
-    "about_me": {
-        "section_title": "Más sobre mí",
-        "paragraph1": "Soy un apasionado desarrollador frontend con sólida experiencia en ",
-        "skills":"React, HTML, CSS y JavaScript ",
-        "paragraph_continue":". Mi principal objetivo es crear experiencias de usuario excepcionales que superen las expectativas. Me encanta enfrentarme a nuevos desafíos y estoy constantemente buscando formas de mejorar y aprender.",
-        "paragraph2": "Mi compromiso con la excelencia se refleja en cada proyecto en el que trabajo, siempre buscando ofrecer soluciones innovadoras y eficientes. Estoy dedicado a tener un impacto positivo en la vida de los usuarios a través de mi trabajo y estoy emocionado por las oportunidades que el futuro pueda traer.",
-        "skillset_title": "HABILIDADES PROFESIONALES"
+    "online_store_project": {
+      "title": "Proyecto de Tienda en Línea",
+      "description": "Esta es una página de aterrizaje para una tienda de zapatos que se realizó con CSS3, HTML5 y Bootstrap. El objetivo es aprender a implementar la estructura HTML5 y CSS3, así como la biblioteca Bootstrap.",
+      "libraries": "CSS, HTML, Bootstrap 5"
     },
-    "projects": {
-        "section_title": "Mis Proyectos",
-        "section_subtitle": "Aquí están todos mis proyectos completados hasta ahora.",
-        "Important_announcement":"Por favor, espere mientras carga la base de datos. Este proceso podría tardar entre 2 a 3 minutos.",
-        "description_title": "Descripción:",
-        "libraries_title": "Frameworks y bibliotecas:",
-        "view":"Ver",
-        "project_llama": {
-            "title": "Proyecto Llama",
-            "description": "Este proyecto tiene como objetivo gestionar empleados, eventos y tareas. Tiene un backend que almacena los datos y realiza operaciones CRUD.",
-            "libraries": "Stack MERN, CSS, HTML, Javascript, DND-KIT, RESEND, Big Calendar, MUI , React-Router 6"
-        },
-        "project_plaza_vea": {
-            "title": "Proyecto Plaza Vea",
-            "description": "Este es un proyecto de página de aterrizaje que creé con un compañero donde implementamos React, MUI y CSS. Su funcionalidad es imitar la página oficial de Plaza Vea en Perú.",
-            "libraries": "CSS, HTML, Javascript, React , MUI"
-        },
-        "online_store_project": {
-            "title": "Proyecto de Tienda en Línea", 
-            "description": "Esta es una página de aterrizaje para una tienda de zapatos que se realizó con CSS3, HTML5 y Bootstrap. El objetivo es aprender a implementar la estructura HTML5 y CSS3, así como la biblioteca Bootstrap.",
-            "libraries": "CSS, HTML, Bootstrap 5"
-        },
-        "project_shopping_cart":{
-            "title":"Proyecto Carrito de Compras",
-            "description": " Esta es una página para una tienda de electrónicos creada con el Stack MERN, CSS, JavaScript y MUI. El objetivo de este proyecto es demostrar cómo implementar un carrito de compras funcional.",
-            "libraries": "MERN Stack, CSS, JavaScript, and MUI"
-            }
-    },
-    "contact":{
-        "contact_title": "CONTÁCTAME",
-        "write_details": "Escribe tus detalles aquí y serán enviados a mi correo electrónico para que pueda ponerme en contacto contigo. Si quieres contactarme, deja un comentario o reporta un error.",
-        "full_name": "Nombre completo",
-        "email": "Correo electrónico",
-        "type": "Tipo",
-        "bug": "Error",
-        "contact": "Contacto",
-        "comment": "Comentario",
-        "comment_label": "Comentario",
-        "send": "Enviar"
-    },
-    "status_messages": {
-        "success": "¡Formulario enviado con éxito!",
-        "error": "Hubo un error al enviar el formulario."
+    "project_ecommerce": {
+      "title": "Proyecto Ecommerce",
+      "description": " Este proyecto es una simulación de una tienda en línea que permite agregar y quitar productos del carrito de compras, además de realizar el proceso de pago. Integra varias bibliotecas y APIs para optimizar la funcionalidad de la página.",
+      "libraries": "Next, Tailwind, Shadcn, Zustand, sonner"
     }
+  },
+  "contact": {
+    "contact_title": "CONTÁCTAME",
+    "write_details": "Escribe tus detalles aquí y serán enviados a mi correo electrónico para que pueda ponerme en contacto contigo. Si quieres contactarme, deja un comentario o reporta un error.",
+    "full_name": "Nombre completo",
+    "email": "Correo electrónico",
+    "type": "Tipo",
+    "bug": "Error",
+    "contact": "Contacto",
+    "comment": "Comentario",
+    "comment_label": "Comentario",
+    "send": "Enviar"
+  },
+  "status_messages": {
+    "success": "¡Formulario enviado con éxito!",
+    "error": "Hubo un error al enviar el formulario."
+  }
 }

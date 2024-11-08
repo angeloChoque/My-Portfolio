@@ -29,57 +29,57 @@ export const LOGO_SKILLS = [
   {
     url: "/My-Portfolio/javascript.svg",
     alt: "JavaScript Logo",
-    tooltip: "intermediate",
+    tooltip: "JavaScript",
   },
   {
     url: "/My-Portfolio/html5.svg",
     alt: "HTML5 Logo",
-    tooltip: "advanced",
+    tooltip: "HTML5",
   },
   {
     url: "/My-Portfolio/css.svg",
     alt: "CSS Logo",
-    tooltip: "intermediate",
+    tooltip: "CSS3",
   },
   {
     url: "/My-Portfolio/react.svg",
     alt: "React Logo",
-    tooltip: "intermediate",
+    tooltip: "React",
   },
   {
     url: "/My-Portfolio/mongodb.svg",
     alt: "MongoDB Logo",
-    tooltip: "basic",
+    tooltip: "MongoDB",
   },
   {
     url: "/My-Portfolio/nodejs.svg",
     alt: "NodeJs Logo",
-    tooltip: "basic",
+    tooltip: "NodeJs",
   },
   {
     url: "/My-Portfolio/expressjs_dark.svg",
     alt: "Express Logo",
-    tooltip: "basic",
+    tooltip: "Express",
   },
   {
     url: "/My-Portfolio/git.svg",
     alt: "Git Logo",
-    tooltip: "intermediate",
+    tooltip: "Git",
   },
   {
     url: "/My-Portfolio/github-dark.svg",
     alt: "GitHub Logo",
-    tooltip: "intermediate",
+    tooltip: "GitHub",
   },
   {
     url: "/My-Portfolio/astro_dark.svg",
-    alt: "astro Logo",
-    tooltip: "intermediate",
+    alt: "Astro Logo",
+    tooltip: "Astro",
   },
   {
     url: "/My-Portfolio/nextjs_icon_dark.svg",
-    alt: "astro Logo",
-    tooltip: "intermediate",
+    alt: "NextJs Logo",
+    tooltip: "NextJs",
   },
 ];
 
@@ -92,6 +92,15 @@ export const PROJECTS = [
     libraries: "projects.project_llama.libraries",
     href_1: "https://github.com/angeloChoque/Project-Llama",
     href_2: "https://angelochoque.github.io/Project-Llama",
+  },
+  {
+    title: "projects.project_ecommerce.title",
+    color: "rgb(236, 114, 23)",
+    url: "/My-Portfolio/project_ecommerce.png",
+    description: "projects.project_ecommerce.description",
+    libraries: "projects.project_ecommerce.libraries",
+    href_1: "https://github.com/angeloChoque/project-e-commerce",
+    href_2: "https://project-e-commerce-black-alpha.vercel.app/",
   },
   {
     title: "projects.project_plaza_vea.title",
@@ -110,15 +119,6 @@ export const PROJECTS = [
     libraries: "projects.online_store_project.libraries",
     href_1: "https://github.com/angeloChoque/proyect-html-css",
     href_2: "https://angelochoque.github.io/proyect-html-css/",
-  },
-  {
-    title: "projects.project_shopping_cart.title",
-    color: "rgb(236, 114, 23)",
-    url: "/My-Portfolio/shopping_cart.png",
-    description: "projects.project_shopping_cart.description",
-    libraries: "projects.project_shopping_cart.libraries",
-    href_1: "https://github.com/angeloChoque/project-shopping-cart",
-    href_2: "https://angelochoque.github.io/project-shopping-cart/",
   },
   {
     title: "projects.project_astro.title",

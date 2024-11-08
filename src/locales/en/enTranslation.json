@@ -42,10 +42,10 @@
       "description": "This is a landing page for a shoe store that was made with CSS3, HTML5, and Bootstrap. The objective is to learn how to implement HTML5 and CSS3 structure, as well as the Bootstrap library.",
       "libraries": "CSS, HTML, Bootstrap 5"
     },
-    "project_shopping_cart": {
-      "title": "Project shopping Cart",
-      "description": "This is a page for an electronics store created with the MERN Stack, CSS, JavaScript, and MUI. The objective of this project is to demonstrate how to implement a functional shopping cart.",
-      "libraries": "MERN Stack, CSS, JavaScript, and MUI"
+    "project_ecommerce": {
+      "title": "Project Ecommerce",
+      "description": "This project simulates an online store where users can add and remove products from the shopping cart and complete the checkout process. It incorporates various libraries and APIs to enhance the functionality of the page.",
+      "libraries": "Next, Tailwind, Shadcn, Zustand, sonner"
     },
     "project_astro": {
       "title": "Project Astro Landing Page",
