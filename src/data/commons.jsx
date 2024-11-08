@@ -27,52 +27,57 @@ export const ITEM = [
 
 export const LOGO_SKILLS = [
   {
-    url: "/My-Portfolio/javascript-3.png",
+    url: "/My-Portfolio/javascript.svg",
     alt: "JavaScript Logo",
     tooltip: "intermediate",
   },
   {
-    url: "/My-Portfolio/html5.png",
+    url: "/My-Portfolio/html5.svg",
     alt: "HTML5 Logo",
     tooltip: "advanced",
   },
   {
-    url: "/My-Portfolio/css3-emblem-blue-shield-and-white-text-vector.jpg",
+    url: "/My-Portfolio/css.svg",
     alt: "CSS Logo",
     tooltip: "intermediate",
   },
   {
-    url: "/My-Portfolio/react-icon-2048x2048-o8k3ymqa.png",
+    url: "/My-Portfolio/react.svg",
     alt: "React Logo",
     tooltip: "intermediate",
   },
   {
-    url: "/My-Portfolio/mongoDb.png",
+    url: "/My-Portfolio/mongodb.svg",
     alt: "MongoDB Logo",
     tooltip: "basic",
   },
   {
-    url: "/My-Portfolio/node.png",
+    url: "/My-Portfolio/nodejs.svg",
     alt: "NodeJs Logo",
     tooltip: "basic",
   },
   {
-    url: "/My-Portfolio/express.png",
+    url: "/My-Portfolio/expressjs_dark.svg",
     alt: "Express Logo",
     tooltip: "basic",
   },
   {
-    url: "/My-Portfolio/git.png",
+    url: "/My-Portfolio/git.svg",
     alt: "Git Logo",
     tooltip: "intermediate",
   },
   {
-    url: "/My-Portfolio/github.png",
+    url: "/My-Portfolio/github-dark.svg",
     alt: "GitHub Logo",
     tooltip: "intermediate",
   },
   {
-    url: "/My-Portfolio/astro.png",
+    url: "/My-Portfolio/astro_dark.svg",
+    alt: "astro Logo",
+    tooltip: "intermediate",
+  },
+  {
+    url: "/My-Portfolio/nextjs_icon_dark.svg",
     alt: "astro Logo",
     tooltip: "intermediate",
   },

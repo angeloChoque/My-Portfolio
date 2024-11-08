@@ -61,7 +61,11 @@ const Home = () => {
           </Stack>
         </Grid>
         <Grid component={"figure"} item xs={12} md={6} mt={10}>
-          <img src="/My-Portfolio/imagen.avif" style={{ maxWidth: "100%" }} />
+          <img
+            src="/My-Portfolio/imagen.avif"
+            style={{ maxWidth: "100%" }}
+            alt="imagePortfolioPerson"
+          />
         </Grid>
       </Grid>
     </Container>

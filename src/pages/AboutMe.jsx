@@ -1,4 +1,4 @@
-import { Container, Tooltip, Typography, Grid } from "@mui/material";
+import { Container, Typography, Box, Tooltip } from "@mui/material";
 import { COLOR_3 } from "../assets/color";
 import { motion } from "framer-motion";
 import { LOGO_SKILLS } from "../data/commons";
@@ -10,13 +10,13 @@ const AboutMe = () => {
 
   return (
     <Reveal>
-      <Container id={"about"}>
+      <Container id="about">
         <Typography
           my={5}
           color={COLOR_3}
           variant="h3"
-          fontWeight={"BOLD"}
-          textAlign={"center"}
+          fontWeight="bold"
+          textAlign="center"
         >
           {t("about_me.section_title")}
         </Typography>
@@ -31,28 +31,41 @@ const AboutMe = () => {
         <Typography
           py={10}
           variant="h4"
-          textAlign={"center"}
-          fontWeight={"bold"}
+          textAlign="center"
+          fontWeight="bold"
           color={COLOR_3}
         >
           {t("about_me.skillset_title")}
         </Typography>
-        <Grid container mb={4} spacing={2} justifyContent="center">
-          {LOGO_SKILLS.map((logo) => (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={logo.alt}>
+
+        <Box overflow="hidden" width="100%" py={5}>
+          <motion.div
+            style={{ display: "flex", gap: "16px", whiteSpace: "nowrap" }}
+            animate={{ x: ["0%", "-100%"] }}
+            transition={{
+              repeat: Infinity,
+              duration: LOGO_SKILLS.length * 2,
+              ease: "linear",
+            }}
+          >
+            {[...LOGO_SKILLS, ...LOGO_SKILLS].map((logo, index) => (
               <Tooltip
+                key={index}
                 title={<Typography fontSize="1.5em">{logo.tooltip}</Typography>}
               >
-                <motion.div
-                  style={{ width: "100%", textAlign: "center" }}
-                  whileHover={{ scale: 1.1 }}
-                >
-                  <img src={logo.url} alt={logo.alt} style={{ width: "50%" }} />
-                </motion.div>
+                <Box
+                  component="img"
+                  m={2}
+                  src={logo.url}
+                  alt={logo.alt}
+                  width="100px"
+                  height="100px"
+                  sx={{ objectFit: "contain" }}
+                />
               </Tooltip>
-            </Grid>
-          ))}
-        </Grid>
+            ))}
+          </motion.div>
+        </Box>
       </Container>
     </Reveal>
   );
